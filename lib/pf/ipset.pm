@@ -264,7 +264,6 @@ The last mark will be the one having an effect.
 =cut
 
 sub generate_mangle_rules {
-    my ($self) =@_;
     my $logger = get_logger();
     my $mangle_rules = '';
     my @ops = ();
@@ -367,7 +366,6 @@ TODO: This should goes in the 'generate_mangle_rules' method but that last one s
 =cut
 
 sub generate_mangle_postrouting_rules {
-    my ( $self ) = @_;
     my $logger = get_logger();
 
     my $rules = '';
